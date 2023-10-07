@@ -1,0 +1,15 @@
+{
+  "files": {
+    "main.css": "/static/css/main.7c60c327.css",
+    "main.js": "/static/js/main.0162ad3f.js",
+    "static/media/facebook logo i 0.png": "/static/media/facebook logo i 0.2e8b91adceb820bf695f.png",
+    "static/media/upload-icon-3.png": "/static/media/upload-icon-3.a26a4340c16de6917375.png",
+    "index.html": "/index.html",
+    "main.7c60c327.css.map": "/static/css/main.7c60c327.css.map",
+    "main.0162ad3f.js.map": "/static/js/main.0162ad3f.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.7c60c327.css",
+    "static/js/main.0162ad3f.js"
+  ]
+}

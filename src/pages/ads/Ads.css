@@ -1,0 +1,200 @@
+
+.topp{
+   width: 100vw;
+    overflow-x: hidden;
+}
+.dragdrop {
+    margin-top: 30px;
+  min-height: 400px;
+  width: 99vw;
+
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  background: #fcfcfc;
+  color: aliceblue;
+  overflow-x: hidden;
+}
+.upload {
+    flex:1;
+  height: 20vh;
+  
+
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.content {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 15rem;
+  width: 15rem;
+  border-radius: 50%;
+  border: 5px solid rgb(244, 233, 233);
+  transition: all 0.3 ease;
+  overflow: hidden;
+  position: relative;
+  background: #000;
+  transition: all 0.2s ease-in;
+  cursor: pointer;
+}
+.content1 {
+  height: 18rem;
+  width: 18rem;
+}
+
+.content:hover {
+  background: rgb(241, 221, 221);
+}
+
+.imgup2 {
+  opacity: 1;
+  height: 60%;
+  width: 60%;
+
+  cursor: pointer;
+  animation: mover 0.6s infinite alternate;
+}
+.imgup1 {
+  height: 60%;
+  width: 60%;
+  cursor: pointer;
+  animation: mover1 0.5s ease-in-out;
+}
+@keyframes mover1 {
+  0% {
+    transform: translateY(-30px);
+  }
+  100% {
+    transform: translateY(0px);
+  }
+}
+@keyframes mover {
+  0% {
+    transform: translateY(0);
+  }
+  100% {
+    transform: translateY(-30px);
+  }
+}
+
+.center {
+  height: 15rem;
+  width: 15rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background: #000;
+}
+.wave {
+  width: 40%;
+  height: 100%;
+  background: linear-gradient(45deg, cyan, #fff);
+  margin: 10px;
+  animation: wave 1s linear infinite;
+  border-radius: 50%;
+}
+.wave:nth-child(2) {
+  animation-delay: 0.1s;
+}
+.wave:nth-child(3) {
+  animation-delay: 0.2s;
+}
+.wave:nth-child(4) {
+  animation-delay: 0.3s;
+}
+.wave:nth-child(5) {
+  animation-delay: 0.4s;
+}
+.wave:nth-child(6) {
+  animation-delay: 0.5s;
+}
+.wave:nth-child(7) {
+  animation-delay: 0.6s;
+}
+.wave:nth-child(8) {
+  animation-delay: 0.7s;
+}
+.wave:nth-child(9) {
+  animation-delay: 0.8s;
+}
+.wave:nth-child(10) {
+  animation-delay: 0.9s;
+}
+
+@keyframes wave {
+  0% {
+    transform: scale(0);
+  }
+  50% {
+    transform: scale(1);
+  }
+  100% {
+    transform: scale(0);
+  }
+}
+
+.title1 {
+  transition: all 0.3s ease-in;
+}
+.title1::after {
+    color: rgba(0, 132, 255, 0.792);
+  content: "Upload Ur image";
+}
+.title2 {
+  transition: all 0.3s ease-in;
+}
+.title2::after {
+    color: rgba(0, 132, 255, 0.792);
+  content: "Uploading...";
+}
+.urrl {
+ display: flex;
+    flex: 2;
+  height: 60vh;
+  border-radius: 14px;
+  overflow: hidden;
+  background: #000;
+  position: relative;
+}
+.imag{
+    flex: 1.5;
+    height: 100%;
+    align-items: center;
+    justify-content: center;
+    background: #fafafa;
+    border-radius: 14px;
+}
+.imag >img{
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+}
+.conte{
+    flex: 2;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+#company{
+    height: 30px;
+    width: 50%;
+    font-size: larger;
+    font-weight: bolder;
+}
+
+.sub{
+    bottom: 60px;
+    right: 200px;
+    width: 200px;
+    position: absolute;
+    cursor: pointer;
+    padding: 10px;
+    border-radius: 10px;
+    background: greenyellow;
+    font-weight: bolder;
+}
